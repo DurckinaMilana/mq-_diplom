@@ -110,6 +110,9 @@ a {
     content: "";
     top: 8px;
   }
+  .menu_link {
+    opacity: 0;
+  }
 }
 
 .menu_list {
@@ -188,8 +191,18 @@ a {
 .trends {
   display: flex;
   align-items: stretch;
-  
- 
+}
+
+.all-trends {
+  display: flex;
+  position: relative;
+}
+
+.trend {
+  width: calc(100% / 4);
+  margin-right: calc(1% / 4);
+  z-index: 0;
+  position: relative;
 }
 
 .trend__garden {
@@ -291,7 +304,7 @@ a {
   background-position: center;
   background-size: cover;
   background-color: #000;
-  width: 128%;
+  width: 390px;
   height: 90%;
   display: flex;
   align-items: flex-end;
