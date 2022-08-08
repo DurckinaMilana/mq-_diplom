@@ -533,7 +533,7 @@ html {
 
 .trend {
   min-height: 320px;
-  
+  width: 25%;
   padding: 15px 20px;
   display: flex;
   align-items: flex-end;
