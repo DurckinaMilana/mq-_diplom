@@ -99,10 +99,6 @@ html {
   font-size: 13px;
 }
 
-.menu-list-items:last-child {
-  margin-right: 35px;
-}
-
 .menu-link {
   text-decoration: none;
   color: #ffffff;
@@ -339,6 +335,8 @@ html {
   text-transform: uppercase;
   color: #b59f5b;
 
+  margin-top: 4px;
+  margin-bottom: 10px;
   display: flex;
 }
 
@@ -395,7 +393,7 @@ time {
 }
 
 .post-text {
-  margin-top: 44px;
+  margin-top: 32px;
 
   line-height: 2rem;
   font-family: "OpenSans", sans-serif;
@@ -705,7 +703,7 @@ time {
 .product-information {
   width: 87%;
   margin-right: 6.5%;
-  margin-left: 6.5%;
+ 
 
   display: flex;
   flex-direction: column;
@@ -1119,10 +1117,6 @@ time {
     background-size: cover;
   }
 
-  .header-wrapper {
-    padding-top: 50px;
-  }
-
   .menu-list {
     position: fixed;
     flex-direction: column;
@@ -1167,7 +1161,6 @@ time {
     align-items: center;
     position: absolute;
     top: 60px;
-    right: 20px;
     width: 26px;
     height: 26px;
     cursor: pointer;
@@ -1212,7 +1205,7 @@ time {
   (min-width: 768px) and (max-width: 1023px) and (orientation: landscape) {
   .header {
     background-size: cover;
-    min-height: 395px;
+    max-height: 350px;
     background-image: url("https://github.com/netology-code/mq-diploma/blob/master/sources/img/banner-bg-tablet.jpg?raw=true");
   }
 
@@ -1224,6 +1217,7 @@ time {
   .container-logo {
     width: 157px;
     min-width: 157px;
+    padding-top: 20px;
   }
 
   .menu-nav {
@@ -1239,18 +1233,19 @@ time {
   }
 
   .section-title {
-    margin: 45px 0 32px;
+    margin: 45px 0 18px;
   }
 
   .trends-title {
-    font-size: 17px;
+    font-size: 15px;
     line-height: 1.3;
   }
 
   .main {
     max-width: 1199px;
-    padding-left: 45px;
-    padding-right: 45px;
+    padding-left: 32px;
+    padding-right: 39px;
+    margin-top: -18px;
   }
 
   .content {
@@ -1260,7 +1255,7 @@ time {
 
   .frame {
     flex-wrap: wrap;
-    margin-bottom: 40px;
+    margin-bottom: 36px;
 
     border-bottom: 3px solid #eeeeee;
   }
@@ -1269,14 +1264,15 @@ time {
     border-bottom: none;
   }
 
+
   .frame-image {
-    min-width: 0%;
+    max-width: 100%;
     width: 100%;
     margin-bottom: 10px;
   }
 
   .frame-text {
-    width: 100%;
+    width: 89%;
     margin-left: 0;
   }
 
@@ -1284,11 +1280,11 @@ time {
     margin-top: 10px;
     margin-bottom: 30px;
 
-    font-size: 17px;
-    line-height: 1.3;
+    font-size: 15px;
+    line-height: 1.6;
   }
   .post-text {
-    margin-bottom: 15px;
+    margin-bottom: 18px;
   }
   .datetime {
     margin-bottom: 30px;
@@ -1300,12 +1296,11 @@ time {
   }
 
   .section-title {
-    font-size: 18px;
+    font-size: 17px;
   }
 
   .product {
     width: calc(50% - 11px);
-    margin-top: 28px;
   }
 
   .product-title {
@@ -1324,7 +1319,7 @@ time {
 @media (min-width: 641px) and (max-width: 1023px) and (orientation: portrait) {
   .trend {
     min-height: 247px;
-    width: calc(50% - 3px);
+    width: calc(50% - 2px);
   }
 
   .trend:nth-child(n + 3) {
