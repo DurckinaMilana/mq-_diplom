@@ -664,7 +664,7 @@ time {
 
 .shop-page {
   max-width: 1200px;
-  padding: 0 15px 60px;
+  padding: 0 0 60px;
   margin: 0 auto;
 }
 
@@ -698,12 +698,12 @@ time {
 }
 
 .product {
-  flex-basis: 345px;
+  flex-basis: 360px;
 }
 
 .product-information {
-  width: 87%;
-  margin-right: 6.5%;
+  width: 100%;
+  padding: 0 35px 0 35px;
  
 
   display: flex;
@@ -723,7 +723,7 @@ time {
 .product-text {
   width: 100%;
 
-  padding: 45px 22.5px 0 22.5px;
+  padding: 52px 12px 0 18px;
   height: 260px;
 }
 
@@ -734,7 +734,7 @@ time {
 }
 
 .product-description {
-  font-family: "OpenSans-Regular", sans-serif;
+  font-family: "OpenSans", sans-serif;
   font-size: 16px;
   line-height: 2rem;
 
@@ -763,11 +763,16 @@ time {
   justify-content: space-between;
   align-items: center;
 
-  margin-top: 40px;
+  margin-top: 28px;
 }
 
 .product-price {
   height: 35px;
+}
+
+.product-price-hare {
+  height: 35px;
+  margin-top: 20px;
 }
 
 .product-old-price {
@@ -833,7 +838,7 @@ time {
   max-width: 1170px;
   box-sizing: border-box;
 
-  margin: auto;
+  margin-top: 10px;
 
   background-color: #eeeeee;
 }
