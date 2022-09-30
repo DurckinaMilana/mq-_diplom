@@ -226,7 +226,6 @@ html {
 .trends-information {
   border: 3px solid rgba(181, 159, 91, 0.6);
 
-  position: absolute;
   right: 22px;
   left: 22px;
   bottom: 15px;
